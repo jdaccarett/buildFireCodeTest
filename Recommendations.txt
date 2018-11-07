@@ -1,0 +1,7 @@
+1. Update the styling to make it look like a todo list.
+
+2. Add delete functionality to the tasks (add delete button)
+
+3. Add ability to add custom text to task when adding to new task 
+
+4. Add ability to clear all task with one button.
