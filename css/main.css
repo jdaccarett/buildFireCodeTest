@@ -55,6 +55,13 @@ box-shadow: 0px 2px 95px -11px rgba(0,0,0,0.75);
     font-family: sans-serif;
 }
 
+.task-complete-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+}
+
 .taskLate{
     background-color: lightpink !important;
 }
@@ -71,6 +78,12 @@ box-shadow: 0px 2px 95px -11px rgba(0,0,0,0.75);
     border-radius: 5px;
 }
 
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
 
 
 .button-one{
@@ -83,6 +96,8 @@ box-shadow: 0px 2px 95px -11px rgba(0,0,0,0.75);
   text-align: center;
   padding: 20px;
 }
+
+
 
 .button-one a{
    text-decoration:none;
@@ -112,4 +127,38 @@ box-shadow: 0px 2px 95px -11px rgba(0,0,0,0.75);
   background-color: #2ecc71;
   box-shadow: 0 5px #95a5a6;
   transform: translateY(4px);
+}
+
+
+.button-two{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.button-three{
+    background-color: crimson;
+}
+
+
+.button-three:hover{
+  background-color: crimson;
+}
+
+.button-three:active {
+  background-color: firebrick;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+
+.button-three{
+    background-color: crimson;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
 }
