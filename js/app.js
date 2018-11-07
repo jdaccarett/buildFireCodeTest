@@ -47,7 +47,10 @@ function updateCompletedTask(e){
     completeTask(currTargIndex); 
 }
 
-
+$('.js-clear-all-tasks').on("click", ()=>{
+   taskList.length = 0; 
+   loadTasks(taskList);
+});
 
 
 
